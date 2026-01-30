@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/pc/Desktop/proyecto-fenix/proyecto-fenix/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/pc/Desktop/proyecto-fenix/proyecto-fenix/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'proyecto-fenix 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'proyecto-fenix 1.0-SNAPSHOT API'
+com.example
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\src\main\java = 1769673766910
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\allclasses-index.html = 1769770026180
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\allpackages-index.html = 1769770026243
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\element-list = 1769770026024
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\help-doc.html = 1769770026342
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\index-all.html = 1769770026305
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\index.html = 1769770026326
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\member-search-index.js = 1769770026269
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\module-search-index.js = 1769770026246
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\overview-tree.html = 1769770026149
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\package-search-index.js = 1769770026259
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\search.html = 1769770026320
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\tag-search-index.js = 1769770026273
+C:\Users\pc\Desktop\proyecto-fenix\proyecto-fenix\target\reports\apidocs\type-search-index.js = 1769770026262

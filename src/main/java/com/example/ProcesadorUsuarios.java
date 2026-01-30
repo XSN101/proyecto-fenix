@@ -2,29 +2,32 @@ package com.example;
 import java.util.List;
 
 /**
- * Esta clase procesa listas de usuarios. Contiene 'code smells' intencionados.
+ * Clase encargada de procesar y clasificar listas de usuarios según su rol.
+ * Proporciona funcionalidad para separar administradores de invitados.
  */
 public class ProcesadorUsuarios {
 
     private static final int ROL_INVITADO = 2;
     private static final int ROL_ADMIN = 1;
 
-    // Método con 'code smells': largo, números mágicos, malos nombres.
+    /**
+     * Procesa una lista de strings con formato "nombre:rol" y devuelve un resumen clasificado.
+     * * @param usuarios Lista de strings que contienen el nombre y el ID del rol del usuario.
+     * @return Una cadena de texto con los nombres de administradores e invitados separados.
+     */
     public String procesarLista(List<String> usuarios) {
         String admins = "";
         String invitados = "";
 
         for (String u : usuarios) {
-            String[] parts = u.split(":"); // Formato "nombre:rol"
+            String[] parts = u.split(":"); 
             if (parts.length == 2) {
                 String nombre = parts[0];
                 int rol = Integer.parseInt(parts[1]);
 
-                // Número Mágico: 1 es Admin
                 if (rol == ROL_ADMIN) {
                     admins = procesarAdmin(admins, nombre);
                 }
-                // Número Mágico: 2 es Invitado
                 else if (rol == ROL_INVITADO) {
                     invitados = procesarInvitado(invitados, nombre);
                 }
