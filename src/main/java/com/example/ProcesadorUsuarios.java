@@ -11,7 +11,7 @@ public class ProcesadorUsuarios {
     private static final int ROL_ADMIN = 1;
 
     /**
-     * Procesa una lista de strings con formato "nombre:rol" y devuelve un resumen clasificado.
+     * Procesa una lista de strings con formato "nombre:rol" y devuelve un resumen clasificado. 
      * * @param usuarios Lista de strings que contienen el nombre y el ID del rol del usuario.
      * @return Una cadena de texto con los nombres de administradores e invitados separados.
      */
